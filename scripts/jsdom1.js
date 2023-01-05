@@ -24,16 +24,17 @@ let productos = [
   
   let listaProductos = document.querySelector(".contenedor-productos");
   
-  for (let a of productos) {
+  for (let c of productos) {
     let contenedor = document.createElement("div");
     contenedor.innerHTML = `
   <div class=" contenedor-producto col-lg-12">
-    <span class="badge bg-primary mt-2 mb-4">${a.categoria}</span>
-  <div class="d-flex justify-content-center"><img src="imagenes/${a.foto}.png" alt="" class="img-fluid"></img></div>
+    <span class="badge bg-primary mt-2 mb-4">${c.categoria}</span>
+  <div class="d-flex justify-content-center"><img src="imagenes/${c.foto}.png" alt="" class="img-fluid"></img></div>
   <div class="contenedor-producto card-body">
-    <h5 class="card-title mt-3">${a.nombre}</h5>
-    <h6 class="mb-3">${a.precio}</h6>
-    <button type="button" class="btn btn-primary boton-compra${a.producto}">COMPRAR</button>
+    <h5 class="card-title mt-3">${c.nombre}</h5>
+    <h6 class="mb-3">${c.precio}</h6>
+    <button type="button" class="btn btn-primary boton-compra${c.producto}">AGREGAR</button>
+    <button type="button" class="btn btn-primary boton-compra${c.producto}">ELIMINAR</button>
   </div>
     </div>`;
   
