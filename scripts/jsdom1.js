@@ -40,6 +40,3 @@ let productos = [
   
     listaProductos.appendChild(contenedor);
   }
-  
- 
-  
