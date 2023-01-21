@@ -11,14 +11,14 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html"><img src="imagenes/logo.png" alt="logo" width="60px" ></a>
+          <a class="navbar-brand" href="/index.html"><img src="imagenes/logo.png" alt="logo" width="60px" class="logo" ></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">inicio
+                <a class="nav-link active" href="#">Inicio
                   <span class="visually-hidden">(current)</span>
                 </a>
               </li>
@@ -30,6 +30,7 @@
                   <a class="dropdown-item" href="#">Pizza</a>
                 </div>
               </li>
+              <li id="fondos" class="ms-4">Billetera:</li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-sm-2" type="text" placeholder="Buscar">
@@ -39,12 +40,27 @@
         </div>
       </nav>
       
-      <main class="container">
-        <span class="contenedor-productos d-flex mt-4 mb-4 "></span>
-            </main>
+      <section class="container mt-4">
+        <div class="row">
+            <main id="items" class="col-lg-9 col-md-8 row"></main>
+            <aside class="col-lg-3 col-md-4">
+                <h2>Carrito</h2>
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <p class="text-right">Total: $<span id="total"></span></p>
+                <button id="boton-eliminar" class="btn btn-danger">eliminar</button>
+                <button id="boton-pagar" class="btn btn-success">Pagar</button>
+            </aside>
+        </div>
+    </section>
     
     <!-- SCRIPTS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
     <script src="./scripts/jsdom1.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
