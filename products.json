@@ -1,0 +1,45 @@
+[
+    {
+        "nombre": "LOCO LUCA",
+        "precio": 2950,
+        "foto": "imagenes/loco.png",
+        "categoria": "Hamburguesa",
+        "descripcion": "Triple Cheese"
+    },
+    {
+        "nombre": "GORDO SANTI",
+        "precio": 2500,
+        "foto": "imagenes/bido.png",
+        "categoria": "Hamburguesa",
+        "descripcion": "Doble carne y verduras"
+    },
+    {
+        "nombre": "FDX",
+        "precio": 2650,
+        "foto": "imagenes/fdx.png",
+        "categoria": "Hamburguesa",
+        "descripcion": "Cebolla Morada con queso danbo"
+    },
+    {
+        "nombre": "NAHITAN",
+        "precio": 2350,
+        "foto": "imagenes/nahitan.png",
+        "categoria": "Hamburguesa",
+        "descripcion": "Cebolla caramelizada, mostaza y cheddar"
+    },
+    {
+        "nombre": "TANITO",
+        "precio": 2400,
+        "foto": "imagenes/tanito.png",
+        "categoria": "Hamburguesa",
+        "descripcion": "Lechuga, tomate y cebolla"
+    },
+    {
+        "nombre": "MONITO",
+        "precio": 2750,
+        "foto": "imagenes/monito.png",
+        "categoria": "Hamburguesa",
+        "descripcion": "Queso roquefort con cebolla"
+    }
+    
+  ]
