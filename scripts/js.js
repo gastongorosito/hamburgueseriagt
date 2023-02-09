@@ -2,7 +2,7 @@ let productos = [
     {
       id: 1,
       nombre: "LOCO LUCA",
-      precio: 2850,
+      precio: 2950,
       foto: "imagenes/loco.png",
       categoria: "Hamburguesa",
       descripcion: "Trpile Cheese",
@@ -21,7 +21,7 @@ let productos = [
       precio: 2650,
       foto: "imagenes/fdx.png",
       categoria: "Hamburguesa",
-      descripcion: "Cebolla morada con queso danbo",
+      descripcion: "Cebolla Morada con queso danbo",
     },
     {
       id: 4,
