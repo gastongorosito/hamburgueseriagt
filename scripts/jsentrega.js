@@ -1,6 +1,6 @@
 let productos = [];
 let carrito = [];
-let dinero = 5000;
+let dinero = 11500;
 let fondosDiv = document.querySelector("#fondos");
 fondosDiv.innerHTML = `
 <p> Fondos: $${dinero}`;
